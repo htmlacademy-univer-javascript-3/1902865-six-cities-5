@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {App} from './App.tsx';
-import {PlaceCardProps} from './components/PlaceCard/PlaceCard.tsx';
+import {TPlaceCard} from './utils/types';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-const places: PlaceCardProps[] = [
+const places: TPlaceCard[] = [
   {
     isPremium: true,
     imageSrc: 'img/apartment-01.jpg',
