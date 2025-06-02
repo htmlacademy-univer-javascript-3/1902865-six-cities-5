@@ -3,6 +3,7 @@ import { TPlaceCard } from '../../utils/types.ts';
 import { OfferList } from '../../components/OfferList/OfferList.tsx';
 import { Map } from '../../components/map/map.tsx';
 import { cities } from '../../mocks/cities.ts';
+import {PlaceClassTypes} from '../../utils/const.ts';
 
 type MainProps = {
   places: TPlaceCard[];
@@ -130,10 +131,7 @@ export const Main: React.FC<MainProps> = ({ places }) => {
                   </li>
                 </ul>
               </form>
-              <OfferList
-                offers={places}
-                onListItemHover={handleListItemHover}
-              />
+              <OfferList offers={places} onListItemHover={handleListItemHover} listType={PlaceClassTypes.Cities}/>
             </section>
             <div className="cities__right-section">
               <section className="cities__map map">
