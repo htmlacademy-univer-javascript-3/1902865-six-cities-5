@@ -1,6 +1,7 @@
-import {TPlaceCard} from '../utils/types.ts';
+import { TPlaceCard } from '../utils/types.ts';
+import { CITIES } from '../utils/const.ts';
 
-export const offers: TPlaceCard[] = [
+export const offersMock: TPlaceCard[] = [
   {
     id: 1,
     isPremium: true,
@@ -10,9 +11,10 @@ export const offers: TPlaceCard[] = [
     name: 'Beautiful &amp; luxurious apartment at great location',
     type: 'Apartment',
     location: {
-      latitude: 52.3909553943508,
-      longitude: 4.85309666406198
-    }
+      latitude: 48.852,
+      longitude: 2.3332,
+    },
+    city: CITIES.Paris,
   },
   {
     id: 2,
@@ -23,9 +25,10 @@ export const offers: TPlaceCard[] = [
     name: 'Wood and stone place',
     type: 'Room',
     location: {
-      latitude: 52.3609553943508,
-      longitude: 4.85309666406198
-    }
+      latitude: 48.8566,
+      longitude: 2.3522,
+    },
+    city: CITIES.Paris,
   },
   {
     id: 3,
@@ -36,8 +39,9 @@ export const offers: TPlaceCard[] = [
     type: 'Apartment',
     location: {
       latitude: 52.3909553943508,
-      longitude: 4.929309666406198
-    }
+      longitude: 4.929309666406198,
+    },
+    city: CITIES.Amsterdam,
   },
   {
     id: 4,
@@ -49,7 +53,8 @@ export const offers: TPlaceCard[] = [
     type: 'Apartment',
     location: {
       latitude: 52.3809553943508,
-      longitude: 4.939309666406198
-    }
-  }
+      longitude: 4.939309666406198,
+    },
+    city: CITIES.Amsterdam,
+  },
 ];
