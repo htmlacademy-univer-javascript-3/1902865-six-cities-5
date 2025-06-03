@@ -4,7 +4,7 @@ export enum AppRoute {
   Main = '/',
   Login = '/login',
   Favorites = '/favorites',
-  Offer = '/offer/:id',
+  Offer = '/offer/:id'
 }
 
 export enum OBJECT_CLASS_TYPES {
@@ -31,7 +31,8 @@ export enum Actions {
   OFFERS = 'Offers',
   OFFER = 'Offer',
   FAVORITES = 'Favorites',
-  COMMENTS = 'Comments'
+  COMMENTS = 'Comments',
+  USER = 'User'
 }
 
 export const commentStars = [
