@@ -1,11 +1,11 @@
 import React from 'react';
-import { TPlaceCard } from '../../utils/types.ts';
-import { PlaceCard } from '../PlaceCard/PlaceCard.tsx';
+import {TPlaceCard} from '../../utils/types.ts';
+import {PlaceCard} from '../PlaceCard/PlaceCard.tsx';
 import {PlaceClassTypes} from '../../utils/const.ts';
 
 interface IOfferListProps {
   offers: TPlaceCard[];
-  onListItemHover: (listItemName: string | null) => void;
+  onListItemHover: (listItemName: string | undefined) => void;
   listType: PlaceClassTypes;
 }
 
@@ -21,8 +21,7 @@ export const OfferList: React.FC<IOfferListProps> = ({offers, onListItemHover, l
         place={place}
         placeCardType={listType}
         onMouseOver={() => onListItemHover(place.id)}
-        onMouseLeave={() => onListItemHover(null)}
-      />
-    ))}
+        onMouseLeave={() => onListItemHover(undefined)}
+      />))}
   </div>
 );
