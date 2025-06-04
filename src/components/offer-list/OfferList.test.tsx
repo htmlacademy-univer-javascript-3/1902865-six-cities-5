@@ -1,8 +1,8 @@
 import {MouseEventHandler} from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { vi } from 'vitest';
-import { OfferList } from './OfferList';
-import { PlaceClassTypes } from '../../utils/const';
+import { OfferList } from './offer-list.tsx';
+import { PlaceClassTypes } from '../../utils/const.ts';
 import {TPlaceCard} from '../../utils/types.ts';
 
 interface IPlaceCardProps {

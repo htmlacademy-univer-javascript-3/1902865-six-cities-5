@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
 import { MemoryRouter } from 'react-router-dom'; // Импортируем MemoryRouter
-import { CityOffersList } from './CityOffersList';
+import { CityOffersList } from './city-offers-list.tsx';
 import { useAppSelector } from '../../store/hooks.ts';
 
 vi.mock('../../store/hooks', () => ({

@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { ReviewRating } from './ReviewRating';
+import { ReviewRating } from './review-rating';
 import { vi } from 'vitest';
 
 describe('ReviewRating', () => {

@@ -1,7 +1,7 @@
 import React, {MouseEventHandler} from 'react';
 import {TPlaceCard} from '../../utils/types.ts';
 import {Link} from 'react-router-dom';
-import {Rating} from '../Rating/Rating.tsx';
+import {Rating} from '../rating/rating.tsx';
 import {Actions, ObjectClass, PlaceClassTypes} from '../../utils/const.ts';
 import {useAppDispatch, useAppSelector} from '../../store/hooks.ts';
 import {changeFavorite} from '../../store/api-actions.ts';

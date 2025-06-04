@@ -1,9 +1,9 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { vi } from 'vitest';
 import { MemoryRouter } from 'react-router-dom';
-import { PlaceCard } from './PlaceCard';
-import { PlaceClassTypes } from '../../utils/const';
-import { useAppDispatch, useAppSelector } from '../../store/hooks';
+import { PlaceCard } from './place-card.tsx';
+import { PlaceClassTypes } from '../../utils/const.ts';
+import { useAppDispatch, useAppSelector } from '../../store/hooks.ts';
 import {TPlaceCard} from '../../utils/types.ts';
 
 vi.mock('../../store/hooks', () => ({

@@ -1,8 +1,8 @@
 import {useCallback, useEffect} from 'react';
 import {Navigate, useParams} from 'react-router-dom';
-import {ReviewsList} from '../../components/ReviewList/ReviewsList.tsx';
+import {ReviewsList} from '../../components/review-list/review-list.tsx';
 import {Map} from '../../components/map/map.tsx';
-import {OfferList} from '../../components/OfferList/OfferList.tsx';
+import {OfferList} from '../../components/offer-list/offer-list.tsx';
 import {Actions, LoadingStatus, ObjectClass, PlaceClassTypes} from '../../utils/const.ts';
 import {TReviewFormState} from '../../utils/types.ts';
 import {useAppDispatch, useAppSelector} from '../../store/hooks.ts';
@@ -10,8 +10,8 @@ import {Header} from '../../components/header/header.tsx';
 import {createComment, fetchComments, fetchOffer, fetchOffersNearby} from '../../store/api-actions.ts';
 import {clearComments, clearNearbyOffers, clearOffer, setActiveOffer} from '../../store/action.ts';
 import {Spinner} from '../../components/spinner/spinner.tsx';
-import {Rating} from '../../components/Rating/Rating.tsx';
-import {ReviewForm} from '../../components/ReviewList/ReviewForm.tsx';
+import {Rating} from '../../components/rating/rating.tsx';
+import {ReviewForm} from '../../components/review-list/review-form.tsx';
 
 export const Offer = () => {
   const {id} = useParams();

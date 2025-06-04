@@ -1,6 +1,6 @@
 import React from 'react';
 import {TPlaceCard} from '../../utils/types.ts';
-import {PlaceCard} from '../PlaceCard/PlaceCard.tsx';
+import {PlaceCard} from '../place-card/place-card.tsx';
 import {PlaceClassTypes} from '../../utils/const.ts';
 
 interface IOfferListProps {

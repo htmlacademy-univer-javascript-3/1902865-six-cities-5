@@ -1,11 +1,11 @@
 import {Route, Routes} from 'react-router-dom';
-import {Main} from './pages/Main/Main.tsx';
-import {Login} from './pages/Login/Login.tsx';
-import {Favorites} from './pages/Favorites/Favorites.tsx';
-import {Offer} from './pages/Offer/Offer.tsx';
-import {NotFound} from './pages/NotFoundPage/NotFound.tsx';
+import {Main} from './pages/main/main.tsx';
+import {Login} from './pages/login/login.tsx';
+import {Favorites} from './pages/favorites/favorites.tsx';
+import {Offer} from './pages/offer/offer.tsx';
+import {NotFound} from './pages/not-found-page/not-found-page.tsx';
 import {AppRoute} from './utils/const.ts';
-import {PrivateRoute} from './PrivateRoute.tsx';
+import {PrivateRoute} from './private-route.tsx';
 
 export const App = () => (
   <Routes>

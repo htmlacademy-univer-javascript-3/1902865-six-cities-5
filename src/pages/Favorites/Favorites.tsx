@@ -2,7 +2,7 @@ import {Actions, AppRoute, LoadingStatus} from '../../utils/const.ts';
 import {Header} from '../../components/header/header.tsx';
 import {Link} from 'react-router-dom';
 import {useAppSelector} from '../../store/hooks.ts';
-import {CityOffersList} from '../../components/city-offers-list/CityOffersList.tsx';
+import {CityOffersList} from '../../components/city-offers-list/city-offers-list.tsx';
 
 export const Favorites = () => {
   const favorites = useAppSelector((state) => state[Actions.Favorites].favorites);

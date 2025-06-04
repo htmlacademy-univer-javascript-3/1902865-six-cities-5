@@ -1,6 +1,6 @@
 import React from 'react';
 import {TReview} from '../../utils/types.ts';
-import {ReviewItem} from './ReviewItem.tsx';
+import {ReviewItem} from './review-item.tsx';
 
 interface IOfferListProps {
   reviews: TReview[];

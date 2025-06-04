@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import { ReviewsList } from './ReviewsList';
+import { ReviewsList } from './review-list';
 import { TReview } from '../../utils/types';
 
 interface IReviewItemProps {

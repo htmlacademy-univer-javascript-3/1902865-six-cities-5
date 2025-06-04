@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { Route, Routes } from 'react-router-dom';
 import { MemoryRouter } from 'react-router-dom';
 import { vi } from 'vitest';
-import { PrivateRoute } from './PrivateRoute';
+import { PrivateRoute } from './private-route.tsx';
 import { AppRoute, Actions } from './utils/const';
 import { useAppSelector } from './store/hooks';
 import {TRootReducer} from './store/rootReducer.ts';
