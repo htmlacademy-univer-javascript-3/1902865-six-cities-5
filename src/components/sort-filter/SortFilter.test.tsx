@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { vi } from 'vitest';
-import { SortFilter } from './SortFilter';
+import { SortFilter } from './sort-filter';
 import { SortName } from '../../utils/const';
 
 describe('SortFilter', () => {

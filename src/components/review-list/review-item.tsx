@@ -1,7 +1,7 @@
 import React from 'react';
 import {TReview} from '../../utils/types.ts';
 import {dateToMonthWordYear, dateToYearMonthDay} from '../../utils/date.ts';
-import {Rating} from '../Rating/Rating.tsx';
+import {Rating} from '../rating/rating.tsx';
 import {ObjectClass} from '../../utils/const.ts';
 
 interface IReviewItemProps {

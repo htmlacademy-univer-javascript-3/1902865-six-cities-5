@@ -1,7 +1,7 @@
 import {useMemo} from 'react';
 import {Actions, PlaceClassTypes} from '../../utils/const.ts';
 import {useAppSelector} from '../../store/hooks.ts';
-import {PlaceCard} from '../PlaceCard/PlaceCard.tsx';
+import {PlaceCard} from '../place-card/place-card.tsx';
 import {TCityName, TPlaceCard} from '../../utils/types.ts';
 
 export const CityOffersList = () => {

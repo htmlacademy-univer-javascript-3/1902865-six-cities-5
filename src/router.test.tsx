@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { App } from './App';
+import { App } from './app.tsx';
 import {Actions, AppRoute, LoadingStatus} from './utils/const';
 import {initAsyncActionsStore, mockState} from './utils/mocks.ts';
 

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import { ReviewItem } from './ReviewItem';
+import { ReviewItem } from './review-item';
 import { TReview } from '../../utils/types';
 import * as dateUtils from '../../utils/date';
 

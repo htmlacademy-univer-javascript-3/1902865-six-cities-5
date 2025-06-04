@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import { ReviewForm } from './ReviewForm';
+import { ReviewForm } from './review-form';
 
 type IReviewRatingProps = {
   onChange: (field: string, value: number) => void;

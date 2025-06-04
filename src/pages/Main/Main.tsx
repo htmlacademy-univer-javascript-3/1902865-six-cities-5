@@ -1,10 +1,10 @@
 import {useMemo, useState} from 'react';
-import {OfferList} from '../../components/OfferList/OfferList.tsx';
+import {OfferList} from '../../components/offer-list/offer-list.tsx';
 import {Map} from '../../components/map/map.tsx';
 import {Actions, LoadingStatus, PlaceClassTypes, SortName} from '../../utils/const.ts';
-import {CityList} from '../../components/city-list/CityList.tsx';
+import {CityList} from '../../components/city-list/city-list.tsx';
 import {useAppDispatch, useAppSelector} from '../../store/hooks.ts';
-import {SortFilter} from '../../components/sort-filter/SortFilter.tsx';
+import {SortFilter} from '../../components/sort-filter/sort-filter.tsx';
 import {Spinner} from '../../components/spinner/spinner.tsx';
 import {Header} from '../../components/header/header.tsx';
 import {setActiveOffer} from '../../store/action.ts';
